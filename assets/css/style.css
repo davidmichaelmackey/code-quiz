@@ -3,6 +3,12 @@
 /* ----------------- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
+/* variables */
+:root {
+  --purp: #361C74;
+  --pank: #C065E9;
+}
+
 /* -------------------- */
 /* global declarations */
 /* ------------------ */
@@ -12,6 +18,7 @@
   /* border color - testing purposes */
   /* border: 1px solid red; */
   color: black;
+  padding-bottom: 2vh;
 }
 
 body {
@@ -24,15 +31,34 @@ p {
   font-size: 1.3em;
 }
 
-button {
-  outline: none;
-  background-color: #361C74;
-  color: white;
+a {
+  text-decoration: none;
+  color: var(--pank);
   font-size: 1.3em;
 }
 
+button {
+  outline: none;
+  background-color: var(--purp);
+  color: white;
+  font-size: 1.3em;
+  border: none;
+  padding: 3%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.highscores-btn {
+  color: var(--pank);
+  background-color: white;
+}
+
+.highscores-btn:hover {
+  background-color: white;
+}
+
 button:hover {
-  background-color: #C065E9;
+  background-color: var(--pank);
 }
 
 h1,
@@ -115,7 +141,7 @@ li {
 /* ---------------------- */
 
 .questions {
-  display: none;
+  display: block;
 }
 
 /* -------------------- */
@@ -129,7 +155,7 @@ li {
 /* highscore section */
 /* ---------------- */
 .highscores {
-  display: block;
+  display: none;
 }
 
 .highscores ol {
