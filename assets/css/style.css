@@ -27,7 +27,6 @@ body {
 }
 
 p {
-  /* color: white; */
   font-size: 1.3em;
 }
 
@@ -43,18 +42,9 @@ button {
   color: white;
   font-size: 1.3em;
   border: none;
-  padding: 3%;
+  padding: 12px;
   border-radius: 10px;
   cursor: pointer;
-}
-
-.highscores-btn {
-  color: var(--pank);
-  background-color: white;
-}
-
-.highscores-btn:hover {
-  background-color: white;
 }
 
 button:hover {
@@ -64,7 +54,7 @@ button:hover {
 h1,
 h2 {
   text-align: center;
-  /* color: aquamarine; */
+  margin-bottom: 1vh;
 }
 
 li {
@@ -99,7 +89,7 @@ li {
   /* background: black; */
   height: 98%;
   width: 50%;
-  margin: 0 auto;
+  margin: 20vh auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,6 +132,10 @@ li {
 
 .questions {
   display: block;
+}
+
+.quest-header {
+  font-size: 3rem;
 }
 
 /* -------------------- */
