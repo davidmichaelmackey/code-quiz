@@ -3,7 +3,7 @@
 /* ----------------- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
-/* variables */
+/* color variables */
 :root {
   --purp: #361C74;
   --pank: #C065E9;
@@ -13,16 +13,14 @@
 /* global declarations */
 /* ------------------ */
 * {
-  /* global font */
   font-family: 'Roboto', sans-serif;
-  /* border color - testing purposes */
-  /* border: 1px solid red; */
   color: black;
   padding-bottom: 2vh;
 }
 
 body {
   background-color: solid white;
+  /* prevents scroll */
   /* overflow: hidden; */
 }
 
@@ -57,10 +55,6 @@ h2 {
   margin-bottom: 1vh;
 }
 
-/* li {
-  list-style: none;
-} */
-
 /* ------------------------ */
 /* outer container section */
 /* ---------------------- */
@@ -75,18 +69,20 @@ h2 {
 /* ---------------------- */
 /* top container section */
 /* -------------------- */
-/* .top-div {} */
 
 .top-div p {
   float: right;
+}
+
+.timer {
+  font-size: 1.3em;
+  color: var(--pank);
 }
 
 /* ------------------------ */
 /* inner container section */
 /* ---------------------- */
 .inner-div {
-  /* background: rgba(0, 0, 0, .4); */
-  /* background: black; */
   height: 98%;
   width: 50%;
   margin: 20vh auto;
@@ -103,7 +99,6 @@ h2 {
   margin-bottom: 30vh;
   margin-left: 10%;
   margin-right: 10%;
-  /* background-color: #3b3b3b; */
 }
 
 .header-container p {
@@ -123,7 +118,6 @@ h2 {
   margin-bottom: 30vh;
   margin-left: 10%;
   margin-right: 10%;
-  /* background-color: #3b3b3b; */
 }
 
 /* ------------------------ */
@@ -153,6 +147,5 @@ h2 {
 }
 
 .highscores ol {
-  /* overflow-y: scroll; */
   max-height: 180px;
 }
