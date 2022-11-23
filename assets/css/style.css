@@ -34,14 +34,13 @@ button {
 /* ---------------------- */
 .outer-div {
   padding: 10px;
+  height: 100vh
 }
 
 /* ---------------------- */
 /* top container section */
 /* -------------------- */
-.top-div {
-  height: 10vh;
-}
+.top-div {}
 
 .top-div p {
   float: right;
@@ -50,3 +49,13 @@ button {
 /* ------------------------ */
 /* inner container section */
 /* ---------------------- */
+
+
+/* --------------- */
+/* header section */
+/* ------------- */
+
+
+/* --------------------- */
+/* main content section */
+/* ------------------- */
