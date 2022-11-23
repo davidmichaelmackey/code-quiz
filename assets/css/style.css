@@ -9,13 +9,13 @@
 * {
   /* global font */
   font-family: Roboto, sans-serif;
-  /* testing */
+  /* border color - testing purposes */
   /* border: 1px solid red; */
-  color: white;
+  color: black;
 }
 
 body {
-  background-color: #222222;
+  background-color: solid white;
   overflow: hidden;
 }
 
@@ -26,15 +26,19 @@ p {
 
 button {
   outline: none;
-  background-color: black;
-  /* color: white; */
+  background-color: #361C74;
+  color: white;
   font-size: 1.3em;
+}
+
+button:hover {
+  background-color: #C065E9;
 }
 
 h1,
 h2 {
   text-align: center;
-  color: aquamarine;
+  /* color: aquamarine; */
 }
 
 li {
@@ -65,7 +69,7 @@ li {
 /* inner container section */
 /* ---------------------- */
 .inner-div {
-  background: rgba(0, 0, 0, .4);
+  /* background: rgba(0, 0, 0, .4); */
   /* background: black; */
   height: 98%;
   width: 50%;
@@ -83,7 +87,7 @@ li {
   margin-bottom: 30vh;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #3b3b3b;
+  /* background-color: #3b3b3b; */
 }
 
 .header-container p {
@@ -103,7 +107,7 @@ li {
   margin-bottom: 30vh;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #3b3b3b;
+  /* background-color: #3b3b3b; */
 }
 
 /* ------------------------ */
@@ -118,10 +122,17 @@ li {
 /* quiz finish section */
 /* ------------------ */
 .finish {
-  display: block;
+  display: none;
 }
 
 /* ------------------ */
 /* highscore section */
 /* ---------------- */
-.highscores {}
+.highscores {
+  display: block;
+}
+
+.highscores ol {
+  overflow-y: scroll;
+  max-height: 180px;
+}
