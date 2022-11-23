@@ -14,7 +14,7 @@
 /* ------------------ */
 * {
   /* global font */
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   /* border color - testing purposes */
   /* border: 1px solid red; */
   color: black;
@@ -23,7 +23,7 @@
 
 body {
   background-color: solid white;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 p {
@@ -57,9 +57,9 @@ h2 {
   margin-bottom: 1vh;
 }
 
-li {
+/* li {
   list-style: none;
-}
+} */
 
 /* ------------------------ */
 /* outer container section */
@@ -99,7 +99,7 @@ li {
 /* header section */
 /* ------------- */
 .header-container {
-  display: none;
+  display: block;
   margin-bottom: 30vh;
   margin-left: 10%;
   margin-right: 10%;
@@ -142,17 +142,17 @@ li {
 /* quiz finish section */
 /* ------------------ */
 .finish {
-  display: none;
+  display: block;
 }
 
 /* ------------------ */
 /* highscore section */
 /* ---------------- */
 .highscores {
-  display: none;
+  display: block;
 }
 
 .highscores ol {
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   max-height: 180px;
 }
