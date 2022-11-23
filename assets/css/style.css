@@ -10,23 +10,35 @@
   /* global font */
   font-family: Roboto, sans-serif;
   /* testing */
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  color: white;
 }
 
 body {
   background-color: #222222;
+  overflow: hidden;
 }
 
 p {
-  color: white;
+  /* color: white; */
   font-size: 1.3em;
 }
 
 button {
   outline: none;
   background-color: black;
-  color: white;
+  /* color: white; */
   font-size: 1.3em;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: aquamarine;
+}
+
+li {
+  list-style: none;
 }
 
 /* ------------------------ */
@@ -34,7 +46,10 @@ button {
 /* ---------------------- */
 .outer-div {
   padding: 10px;
-  height: 100vh
+  height: 99.6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 /* ---------------------- */
@@ -49,13 +64,64 @@ button {
 /* ------------------------ */
 /* inner container section */
 /* ---------------------- */
-
+.inner-div {
+  background: rgba(0, 0, 0, .4);
+  /* background: black; */
+  height: 98%;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /* --------------- */
 /* header section */
 /* ------------- */
+.header-container {
+  display: none;
+  margin-bottom: 30vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #3b3b3b;
+}
 
+.header-container p {
+  text-align: center;
+}
+
+.header-container button {
+  display: block;
+  margin: 0 auto;
+}
 
 /* --------------------- */
 /* main content section */
 /* ------------------- */
+.main-container {
+  display: block;
+  margin-bottom: 30vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #3b3b3b;
+}
+
+/* ------------------------ */
+/* question screen section */
+/* ---------------------- */
+
+.questions {
+  display: none;
+}
+
+/* -------------------- */
+/* quiz finish section */
+/* ------------------ */
+.finish {
+  display: block;
+}
+
+/* ------------------ */
+/* highscore section */
+/* ---------------- */
+.highscores {}
