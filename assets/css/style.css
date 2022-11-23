@@ -1,0 +1,52 @@
+/* ------------------- */
+/* font-family import */
+/* ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+/* -------------------- */
+/* global declarations */
+/* ------------------ */
+* {
+  /* global font */
+  font-family: Roboto, sans-serif;
+  /* testing */
+  border: 1px solid red;
+}
+
+body {
+  background-color: #222222;
+}
+
+p {
+  color: white;
+  font-size: 1.3em;
+}
+
+button {
+  outline: none;
+  background-color: black;
+  color: white;
+  font-size: 1.3em;
+}
+
+/* ------------------------ */
+/* outer container section */
+/* ---------------------- */
+.outer-div {
+  padding: 10px;
+}
+
+/* ---------------------- */
+/* top container section */
+/* -------------------- */
+.top-div {
+  height: 10vh;
+}
+
+.top-div p {
+  float: right;
+}
+
+/* ------------------------ */
+/* inner container section */
+/* ---------------------- */
