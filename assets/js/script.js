@@ -1,12 +1,11 @@
-
 const startTiming = 2;
 let time = startTiming * 60;
-
 const count = document.getElementById("countdownTimer");
 
 setInterval(updateTimer, 1000);
 
 function updateTimer() {
+  // e.preventDefault();
   const minutes = Math.floor(time / 60);
   let seconds = time % 60;
 
