@@ -33,7 +33,7 @@ https://codewithmosh.com/
 <br>
 https://developer.mozilla.org/en-US/docs/Web/API/setInterval
 <br>
-https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener?qs=addEve
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget
 <br>
 https://developer.mozilla.org/en-US/docs/Web/API/Document
 
