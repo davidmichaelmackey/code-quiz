@@ -2,8 +2,11 @@
 
 ## Description
 This web app will quiz your understanding of JavaScript!
+<br>
 Each correct answer gives you five points. 
+<br>
 Wrong answers will remove ten seconds from the timer. 
+<br>
 When finished, you can save your score & add it to the list of high scores.
 
 ## Installation
