@@ -1,151 +1,70 @@
-/* ------------------- */
 /* font-family import */
-/* ----------------- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
 /* color variables */
 :root {
-  --purp: #361C74;
-  --pank: #C065E9;
+    --purp: #361C74;
+    --pank: #C065E9;
 }
 
-/* -------------------- */
 /* global declarations */
-/* ------------------ */
 * {
-  font-family: 'Roboto', sans-serif;
-  color: black;
-  padding-bottom: 2vh;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding-bottom: 2vh;
 }
 
-body {
-  background-color: solid white;
-  /* prevents scroll */
-  /* overflow: hidden; */
+/* buttons */
+.btn {
+    outline: none;
+    background-color: var(--purp);
+    color: white;
+    font-size: 1.3em;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
 }
 
-p {
-  font-size: 1.3em;
+/* button hover highlight */
+.btn:hover {
+    background-color: var(--pank);
 }
 
-a {
-  text-decoration: none;
-  color: var(--pank);
-  font-size: 1.3em;
+/* input box sizing fix */
+input {
+    padding: 1px 2px;
 }
 
-button {
-  outline: none;
-  background-color: var(--purp);
-  color: white;
-  font-size: 1.3em;
-  border: none;
-  padding: 12px;
-  border-radius: 10px;
-  cursor: pointer;
+/* view high scores link */
+#viewHighScores {
+    color: var(--pank);
+    cursor: pointer;
 }
 
-button:hover {
-  background-color: var(--pank);
+/* top section sizing */
+#viewHighScores,
+#timeText {
+    font-size: 24px;
 }
 
-h1,
-h2 {
-  text-align: center;
-  margin-bottom: 1vh;
+/* main section */
+.jumbotron {
+    background-color: white;
 }
 
-/* ------------------------ */
-/* outer container section */
-/* ---------------------- */
-.outer-div {
-  padding: 10px;
-  height: 99.6vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
+#welcome,
+#quiz,
+#inputScore,
+#highScores {
+    margin-top: 25%;
+    width: 70%;
 }
 
-/* ---------------------- */
-/* top container section */
-/* -------------------- */
-
-.top-div p {
-  float: right;
-}
-
-.timer {
-  font-size: 1.3em;
-  color: var(--pank);
-}
-
-/* ------------------------ */
-/* inner container section */
-/* ---------------------- */
-.inner-div {
-  height: 98%;
-  width: 50%;
-  margin: 20vh auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* --------------- */
-/* header section */
-/* ------------- */
-.header-container {
-  display: block;
-  margin-bottom: 30vh;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.header-container p {
-  text-align: center;
-}
-
-.header-container button {
-  display: block;
-  margin: 0 auto;
-}
-
-/* --------------------- */
-/* main content section */
-/* ------------------- */
-.main-container {
-  display: block;
-  margin-bottom: 30vh;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-/* ------------------------ */
-/* question screen section */
-/* ---------------------- */
-
-.questions {
-  display: block;
-}
-
-.quest-header {
-  font-size: 3rem;
-}
-
-/* -------------------- */
-/* quiz finish section */
-/* ------------------ */
-.finish {
-  display: block;
-}
-
-/* ------------------ */
-/* highscore section */
-/* ---------------- */
-.highscores {
-  display: block;
-}
-
-.highscores ol {
-  max-height: 180px;
+#quiz,
+#inputScore,
+#highScores {
+    margin-top: 25%;
+    display: none;
 }
