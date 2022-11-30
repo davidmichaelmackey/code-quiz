@@ -26,7 +26,7 @@ Use this quiz app to test your JavaScript knowledge.
 #### High Scores 
 ![HighScores](assets/images/highscores.png)
 
-## Credits
+## Credits & Resources
 https://getbootstrap.com/docs/5.2/layout/grid/
 <br>
 https://codewithmosh.com/
