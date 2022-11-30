@@ -1,10 +1,13 @@
 # Coding Quiz
 
 ## Description
-This web app will quiz your understanding of JavaScript! Each correct answer gives you five points. Wrong answers will remove ten seconds from the timer. When you finish, you can save your score & add it to the list of high scores.
+This web app will quiz your understanding of JavaScript!
+Each correct answer gives you five points. 
+Wrong answers will remove ten seconds from the timer. 
+When finished, you can save your score & add it to the list of high scores.
 
 ## Installation
-This application is suitable with the most web browsers.
+N/A... This application is suitable with most web browsers.
 
 ## Usage
 Use this quiz app to test your JavaScript knowledge.
