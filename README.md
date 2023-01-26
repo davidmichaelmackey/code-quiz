@@ -1,4 +1,4 @@
-# Coding Quiz
+# { Coding Quiz }
 
 ## Description
 This web app will quiz your understanding of JavaScript!
@@ -42,6 +42,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/Document
 
 ## License
 Please refer to LICENSE file in Repo.
+
+## Repository
+[Repository](https://github.com/davidmichaelmackey/code-quiz)
 
 ## Deployment
 https://davidmackeydev.github.io/coding-quiz
