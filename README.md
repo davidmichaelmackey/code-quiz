@@ -1,4 +1,4 @@
-# { Code Quiz }
+# { Code Quiz
 
 ## Description
 
@@ -54,8 +54,8 @@ Please refer to LICENSE file in Repo.
 
 ## Repository
 
-[Repository](https://github.com/davidmichaelmackey/code-quiz)
+[Repository](https://github.com/davidmichaelmackey/code-quiz/)
 
 ## Deployment
 
-[Code Quiz](https://davidmichaelmackey.github.io/code-quiz)
+[Code Quiz](https://davidmichaelmackey.github.io/code-quiz/)
